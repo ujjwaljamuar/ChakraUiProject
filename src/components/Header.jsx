@@ -43,7 +43,6 @@ const Header = () => {
 
           <DrawerBody>
             <VStack alignItems={'flex-start'}>
-
               <Button colorScheme="purple" variant={'ghost'} onClick={onClose}>
                 <Link to={'/'}>Home</Link>
               </Button>
@@ -72,7 +71,11 @@ const Header = () => {
                 <Link to={'/login'}>Log In</Link>
               </Button>
 
-              <Button colorScheme="purple" variant={'outline'} onClick={onClose}>
+              <Button
+                colorScheme="purple"
+                variant={'outline'}
+                onClick={onClose}
+              >
                 <Link to={'/signup'}>Sign Up</Link>
               </Button>
             </HStack>
